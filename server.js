@@ -1,3 +1,4 @@
+
 const http = require("http");
 const requestHandler = (request, response) => {
 console.log("Url: " + request.url);
@@ -7,4 +8,3 @@ console.log("Все заголовки");
 console.log(request.headers);
 response.end("rabotaet");
 };
-http.createServer(requestHandler).listen(3000);
