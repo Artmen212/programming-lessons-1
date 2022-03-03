@@ -6,5 +6,5 @@ console.log("Тип запроса: " + request.method);
 console.log("User-Agent: " + request.headers["user-agent"]);
 console.log("Все заголовки");
 console.log(request.headers);
-response.end("rabotaet");
+response.end(" vce rabotaet");
 };
