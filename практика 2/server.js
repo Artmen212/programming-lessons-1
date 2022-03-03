@@ -1,4 +1,3 @@
-
 const http = require("http");
 const requestHandler = (request, response) => {
 console.log("Url: " + request.url);
