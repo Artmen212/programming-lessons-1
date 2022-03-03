@@ -1,4 +1,4 @@
- http = require("http");
+const http = require("http");
 const requestHandler = (request, response) => {
 response.setHeader("Content-Type", "text/html; charset=utf-8;");
 if(request.url === "/home" || request.url === "/"){
