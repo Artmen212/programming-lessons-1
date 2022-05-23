@@ -40,3 +40,4 @@ app.get('/about/directions', function (req, res) {
     // отправляем контент...
 })
 app.use(express.static(__dirname + '/public'));
+юююю
