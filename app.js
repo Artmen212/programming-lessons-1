@@ -4,7 +4,7 @@ app.set('port', process.env.PORT || 3000);
 app.use(function (req, res) {
     res.type('text/plain');
     res.status(404);
-    res.send('все робит');
+    res.send('все работает');
 });
 app.use(function (err, req, res, next) {
     console.error(err.stack);
